@@ -1,4 +1,6 @@
 ## Breadboard friendly Decade Programmable Resistor Board
+Ebay listing: [http://www.ebay.com/itm/122106108566]()
+
 more images inside version folders
 
 ### 0v2:
