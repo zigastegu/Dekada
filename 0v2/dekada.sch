@@ -1,0 +1,953 @@
+EESchema Schematic File Version 2
+LIBS:dekada-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dekada-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X10 P1
+U 1 1 5402E379
+P 1650 1800
+F 0 "P1" H 1650 2350 50  0000 C CNN
+F 1 "CONN_02X10" V 1650 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 1650 600 60  0001 C CNN
+F 3 "" H 1650 600 60  0000 C CNN
+	1    1650 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-dekada R1
+U 1 1 5402E3BB
+P 2250 1350
+F 0 "R1" V 2330 1350 40  0000 C CNN
+F 1 "R" V 2257 1351 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 1350 30  0001 C CNN
+F 3 "" H 2250 1350 30  0000 C CNN
+	1    2250 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R2
+U 1 1 5402E3EA
+P 2250 1450
+F 0 "R2" V 2330 1450 40  0000 C CNN
+F 1 "R" V 2257 1451 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 1450 30  0001 C CNN
+F 3 "" H 2250 1450 30  0000 C CNN
+	1    2250 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R3
+U 1 1 5402E404
+P 2250 1550
+F 0 "R3" V 2330 1550 40  0000 C CNN
+F 1 "R" V 2257 1551 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 1550 30  0001 C CNN
+F 3 "" H 2250 1550 30  0000 C CNN
+	1    2250 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R4
+U 1 1 5402E42E
+P 2250 1650
+F 0 "R4" V 2330 1650 40  0000 C CNN
+F 1 "R" V 2257 1651 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 1650 30  0001 C CNN
+F 3 "" H 2250 1650 30  0000 C CNN
+	1    2250 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R5
+U 1 1 5402E447
+P 2250 1750
+F 0 "R5" V 2330 1750 40  0000 C CNN
+F 1 "R" V 2257 1751 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 1750 30  0001 C CNN
+F 3 "" H 2250 1750 30  0000 C CNN
+	1    2250 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R6
+U 1 1 5402E465
+P 2250 1850
+F 0 "R6" V 2330 1850 40  0000 C CNN
+F 1 "R" V 2257 1851 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 1850 30  0001 C CNN
+F 3 "" H 2250 1850 30  0000 C CNN
+	1    2250 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R7
+U 1 1 5402E480
+P 2250 1950
+F 0 "R7" V 2330 1950 40  0000 C CNN
+F 1 "R" V 2257 1951 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 1950 30  0001 C CNN
+F 3 "" H 2250 1950 30  0000 C CNN
+	1    2250 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R8
+U 1 1 5402E49C
+P 2250 2050
+F 0 "R8" V 2330 2050 40  0000 C CNN
+F 1 "R" V 2257 2051 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 2050 30  0001 C CNN
+F 3 "" H 2250 2050 30  0000 C CNN
+	1    2250 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R9
+U 1 1 5402E4B9
+P 2250 2150
+F 0 "R9" V 2330 2150 40  0000 C CNN
+F 1 "R" V 2257 2151 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 2180 2150 30  0001 C CNN
+F 3 "" H 2250 2150 30  0000 C CNN
+	1    2250 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1100 1400 2450
+Wire Wire Line
+	1900 2250 2650 2250
+Wire Wire Line
+	1950 2200 1950 2250
+Wire Wire Line
+	2500 2200 1950 2200
+Wire Wire Line
+	2500 2150 2500 2200
+Wire Wire Line
+	1950 2100 1950 2150
+Wire Wire Line
+	2500 2100 1950 2100
+Wire Wire Line
+	2500 2050 2500 2100
+Wire Wire Line
+	1950 2000 1950 2050
+Wire Wire Line
+	2500 2000 1950 2000
+Wire Wire Line
+	2500 1950 2500 2000
+Wire Wire Line
+	1950 1900 1950 1950
+Wire Wire Line
+	2500 1900 1950 1900
+Wire Wire Line
+	2500 1850 2500 1900
+Wire Wire Line
+	1950 1800 1950 1850
+Wire Wire Line
+	2500 1800 1950 1800
+Wire Wire Line
+	2500 1750 2500 1800
+Wire Wire Line
+	1950 1700 1950 1750
+Wire Wire Line
+	2500 1700 1950 1700
+Wire Wire Line
+	2500 1650 2500 1700
+Wire Wire Line
+	2500 1600 2500 1550
+Wire Wire Line
+	1950 1600 2500 1600
+Wire Wire Line
+	1950 1650 1950 1600
+Wire Wire Line
+	1950 1500 1950 1550
+Wire Wire Line
+	2500 1500 1950 1500
+Wire Wire Line
+	2500 1450 2500 1500
+Wire Wire Line
+	1900 2150 2000 2150
+Wire Wire Line
+	1900 2050 2000 2050
+Wire Wire Line
+	1900 1950 2000 1950
+Wire Wire Line
+	1900 1850 2000 1850
+Wire Wire Line
+	1900 1750 2000 1750
+Wire Wire Line
+	1900 1650 2000 1650
+Wire Wire Line
+	1900 1550 2000 1550
+Connection ~ 1950 2250
+Connection ~ 1950 2150
+Connection ~ 1950 2050
+Connection ~ 1950 1950
+Connection ~ 1950 1850
+Connection ~ 1950 1750
+Connection ~ 1950 1650
+Connection ~ 1950 1550
+Connection ~ 1950 1450
+Wire Wire Line
+	1900 1350 2000 1350
+Wire Wire Line
+	1900 1450 2000 1450
+Wire Wire Line
+	1950 1400 1950 1450
+Wire Wire Line
+	2500 1400 1950 1400
+Wire Wire Line
+	2500 1350 2500 1400
+$Comp
+L CONN_02X10 P2
+U 1 1 5402EFFD
+P 2900 1800
+F 0 "P2" H 2900 2350 50  0000 C CNN
+F 1 "CONN_02X10" V 2900 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 2900 600 60  0001 C CNN
+F 3 "" H 2900 600 60  0000 C CNN
+	1    2900 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-dekada R11
+U 1 1 5402F003
+P 3500 1350
+F 0 "R11" V 3580 1350 40  0000 C CNN
+F 1 "R" V 3507 1351 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 1350 30  0001 C CNN
+F 3 "" H 3500 1350 30  0000 C CNN
+	1    3500 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R12
+U 1 1 5402F009
+P 3500 1450
+F 0 "R12" V 3580 1450 40  0000 C CNN
+F 1 "R" V 3507 1451 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 1450 30  0001 C CNN
+F 3 "" H 3500 1450 30  0000 C CNN
+	1    3500 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R13
+U 1 1 5402F00F
+P 3500 1550
+F 0 "R13" V 3580 1550 40  0000 C CNN
+F 1 "R" V 3507 1551 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 1550 30  0001 C CNN
+F 3 "" H 3500 1550 30  0000 C CNN
+	1    3500 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R14
+U 1 1 5402F015
+P 3500 1650
+F 0 "R14" V 3580 1650 40  0000 C CNN
+F 1 "R" V 3507 1651 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 1650 30  0001 C CNN
+F 3 "" H 3500 1650 30  0000 C CNN
+	1    3500 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R15
+U 1 1 5402F01B
+P 3500 1750
+F 0 "R15" V 3580 1750 40  0000 C CNN
+F 1 "R" V 3507 1751 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 1750 30  0001 C CNN
+F 3 "" H 3500 1750 30  0000 C CNN
+	1    3500 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R16
+U 1 1 5402F021
+P 3500 1850
+F 0 "R16" V 3580 1850 40  0000 C CNN
+F 1 "R" V 3507 1851 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 1850 30  0001 C CNN
+F 3 "" H 3500 1850 30  0000 C CNN
+	1    3500 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R17
+U 1 1 5402F027
+P 3500 1950
+F 0 "R17" V 3580 1950 40  0000 C CNN
+F 1 "R" V 3507 1951 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 1950 30  0001 C CNN
+F 3 "" H 3500 1950 30  0000 C CNN
+	1    3500 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R18
+U 1 1 5402F02D
+P 3500 2050
+F 0 "R18" V 3580 2050 40  0000 C CNN
+F 1 "R" V 3507 2051 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 2050 30  0001 C CNN
+F 3 "" H 3500 2050 30  0000 C CNN
+	1    3500 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R19
+U 1 1 5402F033
+P 3500 2150
+F 0 "R19" V 3580 2150 40  0000 C CNN
+F 1 "R" V 3507 2151 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 3430 2150 30  0001 C CNN
+F 3 "" H 3500 2150 30  0000 C CNN
+	1    3500 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 2250 2650 1100
+Wire Wire Line
+	3200 2200 3200 2250
+Wire Wire Line
+	3750 2200 3200 2200
+Wire Wire Line
+	3750 2150 3750 2200
+Wire Wire Line
+	3200 2100 3200 2150
+Wire Wire Line
+	3750 2100 3200 2100
+Wire Wire Line
+	3750 2050 3750 2100
+Wire Wire Line
+	3200 2000 3200 2050
+Wire Wire Line
+	3750 2000 3200 2000
+Wire Wire Line
+	3750 1950 3750 2000
+Wire Wire Line
+	3200 1900 3200 1950
+Wire Wire Line
+	3750 1900 3200 1900
+Wire Wire Line
+	3750 1850 3750 1900
+Wire Wire Line
+	3200 1800 3200 1850
+Wire Wire Line
+	3750 1800 3200 1800
+Wire Wire Line
+	3750 1750 3750 1800
+Wire Wire Line
+	3200 1700 3200 1750
+Wire Wire Line
+	3750 1700 3200 1700
+Wire Wire Line
+	3750 1650 3750 1700
+Wire Wire Line
+	3750 1600 3750 1550
+Wire Wire Line
+	3200 1600 3750 1600
+Wire Wire Line
+	3200 1650 3200 1600
+Wire Wire Line
+	3200 1500 3200 1550
+Wire Wire Line
+	3750 1500 3200 1500
+Wire Wire Line
+	3750 1450 3750 1500
+Wire Wire Line
+	3150 2250 3900 2250
+Wire Wire Line
+	3150 2150 3250 2150
+Wire Wire Line
+	3150 2050 3250 2050
+Wire Wire Line
+	3150 1950 3250 1950
+Wire Wire Line
+	3150 1850 3250 1850
+Wire Wire Line
+	3150 1750 3250 1750
+Wire Wire Line
+	3150 1650 3250 1650
+Wire Wire Line
+	3150 1550 3250 1550
+Connection ~ 3200 2250
+Connection ~ 3200 2150
+Connection ~ 3200 2050
+Connection ~ 3200 1950
+Connection ~ 3200 1850
+Connection ~ 3200 1750
+Connection ~ 3200 1650
+Connection ~ 3200 1550
+Connection ~ 3200 1450
+Wire Wire Line
+	3150 1350 3250 1350
+Wire Wire Line
+	3150 1450 3250 1450
+Wire Wire Line
+	3200 1400 3200 1450
+Wire Wire Line
+	3750 1400 3200 1400
+Wire Wire Line
+	3750 1350 3750 1400
+$Comp
+L CONN_02X10 P3
+U 1 1 5402F5CF
+P 4150 1800
+F 0 "P3" H 4150 2350 50  0000 C CNN
+F 1 "CONN_02X10" V 4150 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 4150 600 60  0001 C CNN
+F 3 "" H 4150 600 60  0000 C CNN
+	1    4150 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-dekada R21
+U 1 1 5402F5D5
+P 4750 1350
+F 0 "R21" V 4830 1350 40  0000 C CNN
+F 1 "R" V 4757 1351 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 1350 30  0001 C CNN
+F 3 "" H 4750 1350 30  0000 C CNN
+	1    4750 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R22
+U 1 1 5402F5DB
+P 4750 1450
+F 0 "R22" V 4830 1450 40  0000 C CNN
+F 1 "R" V 4757 1451 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 1450 30  0001 C CNN
+F 3 "" H 4750 1450 30  0000 C CNN
+	1    4750 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R23
+U 1 1 5402F5E1
+P 4750 1550
+F 0 "R23" V 4830 1550 40  0000 C CNN
+F 1 "R" V 4757 1551 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 1550 30  0001 C CNN
+F 3 "" H 4750 1550 30  0000 C CNN
+	1    4750 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R24
+U 1 1 5402F5E7
+P 4750 1650
+F 0 "R24" V 4830 1650 40  0000 C CNN
+F 1 "R" V 4757 1651 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 1650 30  0001 C CNN
+F 3 "" H 4750 1650 30  0000 C CNN
+	1    4750 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R25
+U 1 1 5402F5ED
+P 4750 1750
+F 0 "R25" V 4830 1750 40  0000 C CNN
+F 1 "R" V 4757 1751 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 1750 30  0001 C CNN
+F 3 "" H 4750 1750 30  0000 C CNN
+	1    4750 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R26
+U 1 1 5402F5F3
+P 4750 1850
+F 0 "R26" V 4830 1850 40  0000 C CNN
+F 1 "R" V 4757 1851 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 1850 30  0001 C CNN
+F 3 "" H 4750 1850 30  0000 C CNN
+	1    4750 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R27
+U 1 1 5402F5F9
+P 4750 1950
+F 0 "R27" V 4830 1950 40  0000 C CNN
+F 1 "R" V 4757 1951 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 1950 30  0001 C CNN
+F 3 "" H 4750 1950 30  0000 C CNN
+	1    4750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R28
+U 1 1 5402F5FF
+P 4750 2050
+F 0 "R28" V 4830 2050 40  0000 C CNN
+F 1 "R" V 4757 2051 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 2050 30  0001 C CNN
+F 3 "" H 4750 2050 30  0000 C CNN
+	1    4750 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R29
+U 1 1 5402F605
+P 4750 2150
+F 0 "R29" V 4830 2150 40  0000 C CNN
+F 1 "R" V 4757 2151 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 4680 2150 30  0001 C CNN
+F 3 "" H 4750 2150 30  0000 C CNN
+	1    4750 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 2250 3900 1100
+Wire Wire Line
+	4400 2250 5150 2250
+Wire Wire Line
+	4450 2200 4450 2250
+Wire Wire Line
+	5000 2200 4450 2200
+Wire Wire Line
+	5000 2150 5000 2200
+Wire Wire Line
+	4450 2100 4450 2150
+Wire Wire Line
+	5000 2100 4450 2100
+Wire Wire Line
+	5000 2050 5000 2100
+Wire Wire Line
+	4450 2000 4450 2050
+Wire Wire Line
+	5000 2000 4450 2000
+Wire Wire Line
+	5000 1950 5000 2000
+Wire Wire Line
+	4450 1900 4450 1950
+Wire Wire Line
+	5000 1900 4450 1900
+Wire Wire Line
+	5000 1850 5000 1900
+Wire Wire Line
+	4450 1800 4450 1850
+Wire Wire Line
+	5000 1800 4450 1800
+Wire Wire Line
+	5000 1750 5000 1800
+Wire Wire Line
+	4450 1700 4450 1750
+Wire Wire Line
+	5000 1700 4450 1700
+Wire Wire Line
+	5000 1650 5000 1700
+Wire Wire Line
+	5000 1600 5000 1550
+Wire Wire Line
+	4450 1600 5000 1600
+Wire Wire Line
+	4450 1650 4450 1600
+Wire Wire Line
+	4450 1500 4450 1550
+Wire Wire Line
+	5000 1500 4450 1500
+Wire Wire Line
+	5000 1450 5000 1500
+Wire Wire Line
+	4400 2150 4500 2150
+Wire Wire Line
+	4400 2050 4500 2050
+Wire Wire Line
+	4400 1950 4500 1950
+Wire Wire Line
+	4400 1850 4500 1850
+Wire Wire Line
+	4400 1750 4500 1750
+Wire Wire Line
+	4400 1650 4500 1650
+Wire Wire Line
+	4400 1550 4500 1550
+Connection ~ 4450 2250
+Connection ~ 4450 2150
+Connection ~ 4450 2050
+Connection ~ 4450 1950
+Connection ~ 4450 1850
+Connection ~ 4450 1750
+Connection ~ 4450 1650
+Connection ~ 4450 1550
+Connection ~ 4450 1450
+Wire Wire Line
+	4400 1350 4500 1350
+Wire Wire Line
+	4400 1450 4500 1450
+Wire Wire Line
+	4450 1400 4450 1450
+Wire Wire Line
+	5000 1400 4450 1400
+Wire Wire Line
+	5000 1350 5000 1400
+$Comp
+L CONN_02X10 P4
+U 1 1 5402F7C4
+P 5400 1800
+F 0 "P4" H 5400 2350 50  0000 C CNN
+F 1 "CONN_02X10" V 5400 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 5400 600 60  0001 C CNN
+F 3 "" H 5400 600 60  0000 C CNN
+	1    5400 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-dekada R31
+U 1 1 5402F7CA
+P 6000 1350
+F 0 "R31" V 6080 1350 40  0000 C CNN
+F 1 "R" V 6007 1351 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 1350 30  0001 C CNN
+F 3 "" H 6000 1350 30  0000 C CNN
+	1    6000 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R32
+U 1 1 5402F7D0
+P 6000 1450
+F 0 "R32" V 6080 1450 40  0000 C CNN
+F 1 "R" V 6007 1451 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 1450 30  0001 C CNN
+F 3 "" H 6000 1450 30  0000 C CNN
+	1    6000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R33
+U 1 1 5402F7D6
+P 6000 1550
+F 0 "R33" V 6080 1550 40  0000 C CNN
+F 1 "R" V 6007 1551 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 1550 30  0001 C CNN
+F 3 "" H 6000 1550 30  0000 C CNN
+	1    6000 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R34
+U 1 1 5402F7DC
+P 6000 1650
+F 0 "R34" V 6080 1650 40  0000 C CNN
+F 1 "R" V 6007 1651 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 1650 30  0001 C CNN
+F 3 "" H 6000 1650 30  0000 C CNN
+	1    6000 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R35
+U 1 1 5402F7E2
+P 6000 1750
+F 0 "R35" V 6080 1750 40  0000 C CNN
+F 1 "R" V 6007 1751 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 1750 30  0001 C CNN
+F 3 "" H 6000 1750 30  0000 C CNN
+	1    6000 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R36
+U 1 1 5402F7E8
+P 6000 1850
+F 0 "R36" V 6080 1850 40  0000 C CNN
+F 1 "R" V 6007 1851 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 1850 30  0001 C CNN
+F 3 "" H 6000 1850 30  0000 C CNN
+	1    6000 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R37
+U 1 1 5402F7EE
+P 6000 1950
+F 0 "R37" V 6080 1950 40  0000 C CNN
+F 1 "R" V 6007 1951 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 1950 30  0001 C CNN
+F 3 "" H 6000 1950 30  0000 C CNN
+	1    6000 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R38
+U 1 1 5402F7F4
+P 6000 2050
+F 0 "R38" V 6080 2050 40  0000 C CNN
+F 1 "R" V 6007 2051 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 2050 30  0001 C CNN
+F 3 "" H 6000 2050 30  0000 C CNN
+	1    6000 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-dekada R39
+U 1 1 5402F7FA
+P 6000 2150
+F 0 "R39" V 6080 2150 40  0000 C CNN
+F 1 "R" V 6007 2151 40  0000 C CNN
+F 2 "Dekada:R_1206_HandSoldering" V 5930 2150 30  0001 C CNN
+F 3 "" H 6000 2150 30  0000 C CNN
+	1    6000 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 2250 5150 1100
+Wire Wire Line
+	5650 2250 6800 2250
+Wire Wire Line
+	5700 2200 5700 2250
+Wire Wire Line
+	6250 2200 5700 2200
+Wire Wire Line
+	6250 2150 6250 2200
+Wire Wire Line
+	5700 2100 5700 2150
+Wire Wire Line
+	6250 2100 5700 2100
+Wire Wire Line
+	6250 2050 6250 2100
+Wire Wire Line
+	5700 2000 5700 2050
+Wire Wire Line
+	6250 2000 5700 2000
+Wire Wire Line
+	6250 1950 6250 2000
+Wire Wire Line
+	5700 1900 5700 1950
+Wire Wire Line
+	6250 1900 5700 1900
+Wire Wire Line
+	6250 1850 6250 1900
+Wire Wire Line
+	5700 1800 5700 1850
+Wire Wire Line
+	6250 1800 5700 1800
+Wire Wire Line
+	6250 1750 6250 1800
+Wire Wire Line
+	5700 1700 5700 1750
+Wire Wire Line
+	6250 1700 5700 1700
+Wire Wire Line
+	6250 1650 6250 1700
+Wire Wire Line
+	6250 1600 6250 1550
+Wire Wire Line
+	5700 1600 6250 1600
+Wire Wire Line
+	5700 1650 5700 1600
+Wire Wire Line
+	5700 1500 5700 1550
+Wire Wire Line
+	6250 1500 5700 1500
+Wire Wire Line
+	6250 1450 6250 1500
+Wire Wire Line
+	5650 2150 5750 2150
+Wire Wire Line
+	5650 2050 5750 2050
+Wire Wire Line
+	5650 1950 5750 1950
+Wire Wire Line
+	5650 1850 5750 1850
+Wire Wire Line
+	5650 1750 5750 1750
+Wire Wire Line
+	5650 1650 5750 1650
+Wire Wire Line
+	5650 1550 5750 1550
+Connection ~ 5700 2250
+Connection ~ 5700 2150
+Connection ~ 5700 2050
+Connection ~ 5700 1950
+Connection ~ 5700 1850
+Connection ~ 5700 1750
+Connection ~ 5700 1650
+Connection ~ 5700 1550
+Connection ~ 5700 1450
+Wire Wire Line
+	5650 1350 5750 1350
+Wire Wire Line
+	5650 1450 5750 1450
+Wire Wire Line
+	5700 1400 5700 1450
+Wire Wire Line
+	6250 1400 5700 1400
+Wire Wire Line
+	6250 1350 6250 1400
+Wire Wire Line
+	1400 2450 6400 2450
+Connection ~ 1400 2250
+$Comp
+L CONN_01X02 P5
+U 1 1 5402FF2F
+P 6600 2300
+F 0 "P5" H 6600 2450 50  0000 C CNN
+F 1 "CONN_01X02" V 6700 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6600 2300 60  0001 C CNN
+F 3 "" H 6600 2300 60  0000 C CNN
+	1    6600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2450 6400 2350
+Text Notes 5150 950  0    60   ~ 0
+10R
+Text Notes 4050 950  0    60   ~ 0
+100R
+Text Notes 2850 950  0    60   ~ 0
+1kR
+Text Notes 1600 1000 0    60   ~ 0
+10kR
+Connection ~ 1400 1450
+Connection ~ 1400 1550
+Connection ~ 1400 1650
+Connection ~ 1400 1750
+Connection ~ 1400 1850
+Connection ~ 1400 1950
+Connection ~ 1400 2050
+Connection ~ 1400 2150
+Connection ~ 2650 1450
+Connection ~ 2650 1550
+Connection ~ 2650 1650
+Connection ~ 2650 1750
+Connection ~ 2650 1850
+Connection ~ 2650 1950
+Connection ~ 2650 2050
+Connection ~ 2650 2150
+Connection ~ 2650 2250
+Connection ~ 3900 1450
+Connection ~ 3900 1550
+Connection ~ 3900 1650
+Connection ~ 3900 1750
+Connection ~ 3900 1850
+Connection ~ 3900 1950
+Connection ~ 3900 2150
+Connection ~ 3900 2050
+Connection ~ 3900 2250
+Connection ~ 5150 1450
+Connection ~ 5150 1550
+Connection ~ 5150 1650
+Connection ~ 5150 1750
+Connection ~ 5150 1850
+Connection ~ 5150 1950
+Connection ~ 5150 2050
+Connection ~ 5150 2150
+Connection ~ 5150 2250
+Connection ~ 6400 2350
+$Comp
+L CONN_01X02 P6
+U 1 1 5402FA46
+P 7000 2300
+F 0 "P6" H 7000 2450 50  0000 C CNN
+F 1 "CONN_01X02" V 7100 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7000 2300 60  0001 C CNN
+F 3 "" H 7000 2300 60  0000 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2350 6800 2350
+Wire Wire Line
+	1950 1100 1950 1350
+Connection ~ 1950 1350
+Connection ~ 1400 1350
+Wire Wire Line
+	3200 1100 3200 1350
+Connection ~ 3200 1350
+Connection ~ 2650 1350
+Wire Wire Line
+	4450 1100 4450 1350
+Connection ~ 4450 1350
+Connection ~ 3900 1350
+Wire Wire Line
+	5700 1100 5700 1350
+Connection ~ 5700 1350
+Connection ~ 5150 1350
+Wire Wire Line
+	1400 1100 1450 1100
+Wire Wire Line
+	2650 1100 2700 1100
+Wire Wire Line
+	3900 1100 3950 1100
+Wire Wire Line
+	5150 1100 5200 1100
+$Comp
+L CONN_01X02 P7
+U 1 1 56EDA05B
+P 7400 2300
+F 0 "P7" H 7400 2450 50  0000 C CNN
+F 1 "CONN_01X02" V 7500 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7400 2300 60  0001 C CNN
+F 3 "" H 7400 2300 60  0000 C CNN
+	1    7400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2350 7200 2500
+Wire Wire Line
+	7200 2500 6800 2500
+Wire Wire Line
+	6800 2500 6800 2350
+Wire Wire Line
+	7200 2250 7200 2100
+Wire Wire Line
+	7200 2100 6800 2100
+Wire Wire Line
+	6800 2100 6800 2250
+Connection ~ 6800 2350
+Connection ~ 6800 2250
+Connection ~ 6400 2250
+Connection ~ 7200 2350
+Connection ~ 7200 2250
+Connection ~ 2250 1350
+$EndSCHEMATC
