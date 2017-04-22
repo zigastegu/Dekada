@@ -1,0 +1,11 @@
+- prestavi upore bolj skupaj, cca. 0.5 mm x 4 oz. 5
+- prestavi vsako dekado bolj skupaj, cca. 1.5 mm x 3
+- desno, ni potrebe po robu, 0.2 mm od pada lahko, cca. 1mm
+- dodaj dekado 100k, se vèasih rabi, sploh kaki pull upi
+- prestavi napis Dekada iz zgornjega dela v levi del (prikljuèek)
+- zožaj zgornji del
+- prestavi prikljuèek bolj na sredino
+- back to back z mousebiti zahteva 2mm, tj. mora biti overall dolžina modula 49 mm, tako gre potem na 10 x 10 cm panel 6 teh boardov, kar je uf dosti
+- dodaj skupni del pin headerja tudi na "zgornji" strani
+- pin header, ki je dolg namesto dveh sprednjih, skrajša overall length za 2mm
+- 2p pin header namesto rezanja
